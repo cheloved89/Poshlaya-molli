@@ -15,6 +15,7 @@ function bottleLoadingAnimation() {
     setTimeout(() => {
         document.querySelector('.poshlaya-molli-logo-loading').style.opacity = 0;
        document.querySelector('.bottle-loading').style.opacity = 0;
+        document.querySelector('.poshlaya-molli-logo-loading').setAttribute('src', 'https://i.pinimg.com/736x/7a/51/ac/7a51ac824d40ac81d77d30fa0774b7c9.jpg');
     }, 4500);
 
     setTimeout(() => {
@@ -26,7 +27,6 @@ function bottleLoadingAnimation() {
     
 
     setTimeout(() => {
-        document.querySelector('.poshlaya-molli-logo-loading').setAttribute('src', 'https://i.pinimg.com/736x/7a/51/ac/7a51ac824d40ac81d77d30fa0774b7c9.jpg');
         document.querySelector('.poshlaya-molli-logo-loading').style.opacity = 1
     }, 6000);
     
