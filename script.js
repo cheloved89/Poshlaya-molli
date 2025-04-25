@@ -10,7 +10,7 @@ function bottleLoadingAnimation() {
         bottle[index].style.visibility = 'visible';
         bottle[index].style.transform = `scale(1.5)`;
         index = (index + 1) % bottle.length;
-    }, 1000);
+    }, 500);
 
     setTimeout(() => {
         document.querySelector('.poshlaya-molli-logo-loading').style.opacity = 0;
